@@ -17,7 +17,7 @@ Es verwendet zur erkennung der Wörter eine Regex Schema genutzt, welche einfach
 ## 30.2.2024
 
 - [x] Tokenizer, welche einen Satz in einzelne Wörter umwandelt.
-- [ ] "Word verifier" welcher dafür sorgt, dass nur echte wörter outputtet werden.
+- [ ] "Word verifier" welcher dafür sorgt, dass nur echte wörter outputtet werden.(Abbas schreibt eigentlich dieses Programm)
 - [ ] Intent classifier, welcher die Wörter des Inputs mit die in der Library vergleicht, und ein Intent entscheidet.
 - [ ] Library mit genug englishche Wörter um eine Konversation zu haben.
 
