@@ -24,10 +24,10 @@ Es verwendet zur erkennung der Wörter eine Regex Schema genutzt, welche einfach
 |      Testfall-Nummer       |      Ausgangslage (Given)   |   Eingabe (When)   |    Ausgabe (Then)       | Erfüllt? |
 |      ---------------       |      --------------------   |   --------------   |    --------------       | -------- |
 |1 Tokenizer gibt Wörter raus| Gibt einzelne Wörter        | Hi my name is Neo  |Tokens: Hi               | ja       |
-|                            |                             |                             my
-|                            |                             |                             name
-|                            |                             |                             is               
-|                            |                             |                             Neo              |          |
+|                            |                             |                    |         my
+|                            |                             |                    |         name
+|                            |                             |                    |         is               
+|                            |                             |                    |         Neo             |          |
 |2                           |                             |                    |                         |          |
 |3                           |                             |                    |                         |          |
 
