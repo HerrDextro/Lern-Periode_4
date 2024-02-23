@@ -22,13 +22,13 @@ Es verwendet zur erkennung der Wörter eine Regex Schema genutzt, welche einfach
 
 |      Testfall-Nummer       |      Ausgangslage (Given)   |   Eingabe (When)   |    Ausgabe (Then)       | Erfüllt? |
 |      ---------------       |      --------------------   |   --------------   |    --------------       | -------- |
-|1 Tokenizer gibt wörter raus| Gibt einzelne wörter        | Hi my name is Neo  |Tokens: Hi
-|                            |                             |                               my
-|                            |                             |                               name
-|                            |                             |                               is
-|                            |                             |                               Neo               |  Ja      |
+|1 Tokenizer gibt wörter raus| Gibt einzelne wörter        | Hi my name is Neo  |Tokens: Hi               | ja       |
+|                            |                             |                             my
+|                            |                             |                             name
+|                            |                             |                             is               
+|                            |                             |                             Neo              |          |
 |2                           |                             |                    |                         |          |
-|4                           |                             |                    |                         |          |
+|3                           |                             |                    |                         |          |
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
