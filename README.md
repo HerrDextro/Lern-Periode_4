@@ -15,15 +15,15 @@
 
 ## 30.2.2024
 
-- [ ] Tokenizer, welche einen Satz in einzelne Wörter umwandelt.
+- [x] Tokenizer, welche einen Satz in einzelne Wörter umwandelt.
 - [ ] "Word verifier" welcher dafür sorgt, dass nur echte wörter outputtet werden.
 - [ ] Intent classifier, welcher die Wörter des Inputs mit die in der Library vergleicht, und ein Intent entscheidet.
 
-|      Testfall-Nummer       |      Ausgangslage (Given)   | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
-|      ---------------       |      --------------------   | -------------- | -------------- | -------- |
-|1 Tokenizer gibt wörter raus|                             |                |                |          |
-|2                           |                             |                |                |          |
-|4                           |                             |                |                |          |
+|      Testfall-Nummer       |      Ausgangslage (Given)   |   Eingabe (When)   |    Ausgabe (Then)       | Erfüllt? |
+|      ---------------       |      --------------------   |   --------------   |    --------------       | -------- |
+|1 Tokenizer gibt wörter raus| Gibt einzelne wörter        | Hi my name is Neo  |Tokens: Hi my name is Neo|  Ja      |
+|2                           |                             |                    |                         |          |
+|4                           |                             |                    |                         |          |
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
