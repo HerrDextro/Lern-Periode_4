@@ -11,8 +11,8 @@
 
 ## 23.2.2024
 
-Heute habe ich ein Tokenizer program, welche ich in meiner Freizet angefangen habe fertigprogrammiert. Das Ziel meines (einfachen) Tokenizers ist es nur, um sätze in einzelne Wörter umzuwandeln und auszugeben.
-Es verwendet zur erkennung der Wörter eine Regex schema genutzt, welche einfach zusammensetzungen von charakteren zwischen zwei leerspalten als Wörter klassifiziert. Ich habe es getestet, indem ich ein paar Sätze im Diologfenster geschrieben habe, und dann der Output mit meinem Satz verglich.
+Heute habe ich ein Tokenizer Programm, welche ich in meiner Freizeit angefangen habe, fertigprogrammiert. Das Ziel meines (einfachen) Tokenizers ist es nur, um sätze in einzelne Wörter umzuwandeln und auszugeben.
+Es verwendet zur erkennung der Wörter eine Regex Schema genutzt, welche einfach zusammensetzungen von charakteren zwischen zwei Leerspalten als Wörter klassifiziert. Ich habe es getestet, indem ich ein paar Sätze im Dialogfenster geschrieben habe, und dann der Output mit meinem Satz verglichen habe.
 
 ## 30.2.2024
 
