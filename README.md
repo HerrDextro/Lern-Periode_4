@@ -5,9 +5,9 @@
 ## Grob-Planung
 
 1. Meine Noten sind nicht sehr gut, aber sie verbessern sich schon (Kanti Noten)
-2. Ich wollte allgemein mehr programmieren und 
-3. **Neu**: Was möchten Sie Neues lernen?
-4. Was wäre ein geeignetes Projekt für diese LP4?
+2. Ich wollte allgemein mehr programmieren
+3. Ich möchte gerne ein dictionary (In diesem Fall ein Library) an mein NPC "AI" hinzufügen.
+4. Tokenizer mit library
 
 ## 23.2.2024
 
