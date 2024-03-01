@@ -11,7 +11,7 @@
 
 ## 23.2.2024
 
-Heute habe ich ein Tokenizer Programm, welche ich in meiner Freizeit angefangen habe, fertigprogrammiert. Das Ziel meines (einfachen) Tokenizers ist es nur, um sätze in einzelne Wörter umzuwandeln und auszugeben.
+Heute habe ich ein Tokenizer Programm, welche ich in meiner Freizeit angefangen habe, so ungefähr fertigprogrammiert. Das Ziel meines (einfachen) Tokenizers ist es nur, um sätze in einzelne Wörter umzuwandeln und auszugeben.
 Es verwendet zur erkennung der Wörter ein Regex Schema, welche einfach zusammensetzungen von charakteren zwischen zwei Leerspalten als Wörter klassifiziert. Ich habe es getestet, indem ich ein paar Sätze im Dialogfenster geschrieben habe, und dann der Output mit meinem Satz verglichen habe.
 
 ## 30.2.2024
@@ -31,7 +31,11 @@ Es verwendet zur erkennung der Wörter ein Regex Schema, welche einfach zusammen
 |2                           |                             |                    |                         |          |
 |3                           |                             |                    |                         |          |
 
-✍️ Heute habe ich... (50-100 Wörter)
+01.03.2024
+Heute habe ich mein Tokenizer verbessert und ein Library-System für mein nächstes Programm entwickelt, der alle wörter Tags gibt und schlussendlich hoffentlich ein Paar tausend Wörter hat. Um es so gross zu machen wird ich ChatGPR eine englische Wörterliste Taggen lassen. Der nächste Schritt ist ein Entity-extractor, welche mit Regeln die Wörter als Entity klassifiziert oder als sonstiges, dafür greift es auf diesem Library zu.
+
+
+
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
