@@ -37,11 +37,11 @@ Heute habe ich mein Tokenizer verbessert und ein Library-System für mein nächs
 
 ## Arbeitspakete 29.03.2024 (frei) und 05.04.2024 
 
- [ ] C# Data Libary (L1 ) erstellen
- [ ] Data Libary L2 erstellen
- [ ] Intent classifier programmieren (Teil 1, Tokens mit L1 vergleichen, und dann alle mit _ verbinden)
- [ ] IC Teil 2, TokenTag_Token_Tag_TokenTag mit sentence syntax presets im L2 vergleichen, der meist ähniche wird gewählt, als output kommt er intent, welche mit der ausgewählte preset verknüpft ist raus.
- [ ] kleiner Debug Menu, aktiviert mit !debug, enthält !help list, dann !help (insert command). Commands werden für jetzt einfach: !verbose, !train, !logs
+- [ ] C# Data Libary (L1 ) erstellen
+- [ ] Data Libary L2 erstellen
+- [ ] Intent classifier programmieren (Teil 1, Tokens mit L1 vergleichen, und dann alle mit _ verbinden)
+- [ ] IC Teil 2, TokenTag_Token_Tag_TokenTag mit sentence syntax presets im L2 vergleichen, der meist ähniche wird gewählt, als output kommt er intent, welche mit der ausgewählte preset verknüpft ist raus.
+- [ ] kleiner Debug Menu, aktiviert mit !debug, enthält !help list, dann !help (insert command). Commands werden für jetzt einfach: !verbose, !train, !logs
 
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
