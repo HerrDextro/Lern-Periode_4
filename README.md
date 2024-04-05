@@ -24,6 +24,14 @@ Es verwendet zur erkennung der Wörter ein Regex Schema, welche einfach zusammen
 |      Testfall-Nummer            |      Ausgangslage (Given)   |   Eingabe (When)   |    Ausgabe (Then)       | Erfüllt? |
 |      ---------------            |      --------------------   |   --------------   |    --------------       | -------- |
 |1 Tokenizer gibt Wörter raus     | Gibt einzelne Wörter        | Hi my name is Neo  |Tokens: Hi               | ja       |
+                                                                                              my
+                                                                                              name
+                                                                                              is
+                                                                                              Neo
+
+
+
+
 |2. WV findet die richtigen Wörter| bello=hello, musig=music    | I tinhk  wihch     |         my
 |                                 |                             |                    |         name
 |                                 |                             |                    |         is               
