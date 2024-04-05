@@ -29,8 +29,8 @@ Es verwendet zur erkennung der Wörter ein Regex Schema, welche einfach zusammen
 |                                 |                             |                    |        is               |          |
 |                                 |                             |                    |        neo              |          |
 |                                 |                             |                    |                         |          |
-|2. WV findet die richtigen Wörter| bello=hello, musig=music    | I tinhk  wihch     |  i think witch          |          |
-|3. WV findet die richtigen Wörter| bello=hello, musig=music    | I tinhk  wihch     |  i think which          |          |
+|2. WV findet die richtigen Wörter| bello=hello, musig=music    | I tinhk  wihch     |  i think witch          | nein     |
+|3. WV findet die richtigen Wörter| bello=hello, musig=music    | I tinhk  wihch     |  i think which          | ja       |
 
 01.03.2024
 Heute habe ich mein Tokenizer verbessert und ein Library-System für mein nächstes Programm entwickelt, der alle wörter Tags gibt und schlussendlich hoffentlich ein Paar tausend Wörter hat. Um es so gross zu machen wird ich ChatGPT eine englische Wörterliste Taggen lassen. Der nächste Schritt ist ein Entity-extractor, welche mit Regeln die Wörter als Entity klassifiziert oder als sonstiges, dafür greift es auf diesem Library zu.
