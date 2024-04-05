@@ -23,21 +23,14 @@ Es verwendet zur erkennung der Wörter ein Regex Schema, welche einfach zusammen
 
 |      Testfall-Nummer            |      Ausgangslage (Given)   |   Eingabe (When)   |    Ausgabe (Then)       | Erfüllt? |
 |      ---------------            |      --------------------   |   --------------   |    --------------       | -------- |
-|1 Tokenizer gibt Wörter raus     | Gibt einzelne Wörter        | Hi my name is Neo  |Tokens: Hi               | ja       |
-                                                                                              my
-                                                                                              name
-                                                                                              is
-                                                                                              Neo
-
-
-
-
-|2. WV findet die richtigen Wörter| bello=hello, musig=music    | I tinhk  wihch     |         my
-|                                 |                             |                    |         name
-|                                 |                             |                    |         is               
-|                                 |                             |                    |         Neo             |          |
-|2                                |                             |                    |                         |          |
-|3                                |                             |                    |                         |          |
+|1 Tokenizer gibt Wörter raus     | Gibt einzelne Wörter        | Hi my name is Neo  |Tokens: hi               | ja       |
+|3                                |                             |                    |        my               |          |
+|                                 |                             |                    |        name             |          |
+|                                 |                             |                    |        is               |          |
+|                                 |                             |                    |        neo              |          |
+|                                 |                             |                    |                         |          |
+|2. WV findet die richtigen Wörter| bello=hello, musig=music    | I tinhk  wihch     |  i think witch          |          |
+|3. WV findet die richtigen Wörter| bello=hello, musig=music    | I tinhk  wihch     |  i think which          |          |
 
 01.03.2024
 Heute habe ich mein Tokenizer verbessert und ein Library-System für mein nächstes Programm entwickelt, der alle wörter Tags gibt und schlussendlich hoffentlich ein Paar tausend Wörter hat. Um es so gross zu machen wird ich ChatGPT eine englische Wörterliste Taggen lassen. Der nächste Schritt ist ein Entity-extractor, welche mit Regeln die Wörter als Entity klassifiziert oder als sonstiges, dafür greift es auf diesem Library zu.
